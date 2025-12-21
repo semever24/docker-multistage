@@ -2,14 +2,11 @@
 *.github
 *.vscode
 
-k8s/aws/
-
-*/bmi/.mvn
-*/bmi/target
+*/.mvn
+*/target
 helm/python/venv/
 
 */node_modules
-node_modules/
 */node_modules/.bin/mime
 */node_modules/.package-lock.json
 */.DS_Store
@@ -30,3 +27,4 @@ node_modules/
 */yarn-error.log*
 
 */.terraform/
+k8s/aws/
